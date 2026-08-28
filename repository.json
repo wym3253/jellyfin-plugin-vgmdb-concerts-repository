@@ -1,0 +1,20 @@
+[
+  {
+    "guid": "553a22b2-1600-47c1-99e7-367c69ce0c09",
+    "name": "VGMdb Concerts",
+    "description": "VGMdb metadata, performers, release details, and cover images for concert movies.",
+    "overview": "VGMdb metadata and images for Japanese concert movies.",
+    "owner": "linkthis",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "VGMdb Concerts 1.0.0\n\n- Plugin version: 1.0.0.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers only Movie-related VGMdb providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/wym3253/jellyfin-plugin-vgmdb-concerts-repository/main/1.0.0.0.zip",
+        "checksum": "f56ea1347ed007afa9ee9a75095440e1",
+        "timestamp": "2026-08-27T15:50:53Z"
+      }
+    ]
+  }
+]
