@@ -8,6 +8,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.1.0.0",
+        "changelog": "VGMdb Concerts 1.1.0\n\n- Plugin version: 1.1.0.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers only Movie-related VGMdb providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/wym3253/jellyfin-plugin-vgmdb-concerts-repository/main/1.1.0.0.zip",
+        "checksum": "81fd358c0930f8b5dce739d2029587cc",
+        "timestamp": "2026-08-28T15:02:43Z"
+      },
+      {
         "version": "1.0.0.0",
         "changelog": "VGMdb Concerts 1.0.0\n\n- Plugin version: 1.0.0.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers only Movie-related VGMdb providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
         "targetAbi": "10.11.0.0",
