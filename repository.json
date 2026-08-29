@@ -9,7 +9,7 @@
     "versions": [
       {
         "version": "1.7.6.0",
-        "changelog": "VGMdb Concerts 1.7.6\n\n- Plugin version: 1.7.6.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers Movie-related VGMdb providers plus metadata and image providers restricted to generated concert collections. It does not register Artist/MusicAlbum providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
+        "changelog": "VGMdb Concerts 1.7.6\n\n- Plugin version: 1.7.6.0\n- Target Jellyfin ABI: 10.11.0.0\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nChanges:\n- Force an image-only full refresh after stale concert artwork is removed, so missing movie and collection covers are actually downloaded.\n- Discover Bangumi artwork by generic concert-folder title, year, and confidence scoring when no subject ID is stored; no event-specific IDs or titles are hardcoded.\n- Remove unrelated TMDb/IMDb/TVDb identities and cast rows from plugin-managed concert movies, retain Bangumi/VGMdb people, and strip Hangul aliases from retained roles.\n- Keep metadata refresh in validation-only mode while repairing images, preventing TMDb metadata from being reintroduced by the repair task.\n\nThe standalone plugin keeps GUID 553a22b2-1600-47c1-99e7-367c69ce0c09 and can coexist with Jellyfin's official VGMdb music plugin.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.6.0.zip",
         "checksum": "d121c286e7e74e9a66d6559f1b4d3e2d",
