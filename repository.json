@@ -9,7 +9,7 @@
     "versions": [
       {
         "version": "1.5.1.0",
-        "changelog": "VGMdb Concerts 1.5.1\n\n- Plugin version: 1.5.1.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers only Movie-related VGMdb providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
+        "changelog": "VGMdb Concerts 1.5.1\n\n- Plugin version: 1.5.1.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\n- Adds Primary, Backdrop, and Thumb artwork for generated concert collections by reusing an identified member Movie's VGMdb/Bangumi images.\n- Keeps Jellyfin crop fallback when no source has the target shape.\n- Registers only an image provider for BoxSet; no BoxSet metadata or Artist/MusicAlbum provider is added.\n\nThe plugin remains compatible with Jellyfin's official VGMdb music plugin.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.5.1.0.zip",
         "checksum": "a1ed0bd5078efc8ff07261c19fdac687",
