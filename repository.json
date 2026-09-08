@@ -8,6 +8,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.8.0.0",
+        "changelog": "VGMdb Concerts 1.8.0\n\n- Restricts movie and collection ownership to validated plugin identities and isolates same-name collections by source path.\n- Adds resilient VGMdb and Bangumi networking with configurable endpoints, timeout, proxy, bounded concurrency, target-episode pagination, request coalescing, and bounded caching.\n- Stabilizes local fallback identities, collection repair, artwork selection, URL normalization, and Bangumi validation while filtering default placeholder images.\n- Adds complete English and Simplified Chinese configuration text that follows the Jellyfin display language.\n- Hardens locked dependencies, release commit/tag checks, package validation, and exact versioned plugin-repository links.\n\nTarget Jellyfin ABI: 10.11.0.0\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.8.0.0.zip",
+        "checksum": "8394a8795d66f204cb75c49e1d6d45cf",
+        "timestamp": "2026-09-08T05:36:29Z"
+      },
+      {
         "version": "1.7.9.0",
         "changelog": "VGMdb Concerts 1.7.9\n\n- Plugin version: 1.7.9.0\n- Target Jellyfin ABI: 10.11.0.0\n- Upstream commit: 5e7f20cb48991e76e58543a0efcb16f538e80c2e\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers Movie-related VGMdb providers plus metadata and image providers restricted to generated concert collections. It does not register Artist/MusicAlbum providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
         "targetAbi": "10.11.0.0",
