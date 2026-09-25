@@ -8,6 +8,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "2.0.0.0",
+        "changelog": "## English\n\n- Requires Jellyfin 12.1 and .NET 10. Older Jellyfin versions are not supported.\n- Synchronizes the official Jellyfin VGMdb provider upstream.\n- Adds optional AnitomySharp file-name title parsing without replacing original-title matching or treating anime episode numbers as concert Day numbers.\n- Fixes automatic matching for event archives such as `如月千早武道館単独公演「OathONE」 Day 1 （アーカイブ）` and preserves local Day metadata when remote services fail.\n- Adds configurable VGMdb/Bangumi API and website addresses, request timeout, proxy, bounded concurrency, cache hardening, normalized image URLs, and placeholder filtering.\n- Provides English and Simplified Chinese configuration text that follows the Jellyfin interface language automatically.\n\n## 简体中文\n\n- 需要 Jellyfin 12.1 和 .NET 10，不支持更早的 Jellyfin 版本。\n- 已与 Jellyfin 官方 VGMdb 插件上游同步。\n- 新增可选的 AnitomySharp 文件名标题解析；不会覆盖原始标题匹配，也不会把动画集号当作演唱会 Day 编号。\n- 修复 `如月千早武道館単独公演「OathONE」 Day 1 （アーカイブ）` 等活动归档的自动匹配，并在远程服务失败时保留本地 Day 元数据。\n- 新增可配置的 VGMdb/Bangumi API 与网站地址、请求超时和代理，并改进并发限制、缓存、图片 URL 规范化及默认占位图过滤。\n- 配置界面提供英文和简体中文，并自动跟随 Jellyfin 界面语言切换。\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.0.0.0.zip",
+        "checksum": "48bd24471ee2e9d5204cb6d2bb1f3304",
+        "timestamp": "2026-09-25T02:24:12Z"
+      },
+      {
         "version": "1.8.0.0",
         "changelog": "VGMdb Concerts 1.8.0\n\n- Restricts movie and collection ownership to validated plugin identities and isolates same-name collections by source path.\n- Adds resilient VGMdb and Bangumi networking with configurable endpoints, timeout, proxy, bounded concurrency, target-episode pagination, request coalescing, and bounded caching.\n- Stabilizes local fallback identities, collection repair, artwork selection, URL normalization, and Bangumi validation while filtering default placeholder images.\n- Adds complete English and Simplified Chinese configuration text that follows the Jellyfin display language.\n- Hardens locked dependencies, release commit/tag checks, package validation, and exact versioned plugin-repository links.\n\nTarget Jellyfin ABI: 10.11.0.0\n",
         "targetAbi": "10.11.0.0",
