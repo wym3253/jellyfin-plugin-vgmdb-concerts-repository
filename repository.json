@@ -8,12 +8,12 @@
     "category": "Metadata",
     "versions": [
       {
-        "version": "2.1.3.0",
-        "changelog": "Reuses existing Jellyfin collections and removes safely identified duplicate plugin collections. Full collection and artwork repair is now a manually run scheduled task with no automatic trigger.",
+        "version": "2.1.4.0",
+        "changelog": "VGMdb Concerts 2.1.4\n\n- Plugin version: 2.1.4.0\n- Target Jellyfin ABI: 12.1.0.0\n- Upstream commit: a633b1bd98e0a9774c833632d74111bb43664eba\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers Movie-related VGMdb providers plus metadata and image providers restricted to generated concert collections. It does not register Artist/MusicAlbum providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.3.0.zip",
-        "checksum": "369446fc0ff251e708cd9a028d958247",
-        "timestamp": "2026-09-25T12:08:41Z"
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.4.0.zip",
+        "checksum": "1a15b5c7a6537e8630f5ac4c39cc2691",
+        "timestamp": "2026-10-02T05:19:54Z"
       }
     ]
   }
