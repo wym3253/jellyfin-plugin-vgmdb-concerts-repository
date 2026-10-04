@@ -8,12 +8,252 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "2.1.5.0",
+        "changelog": "VGMdb Concerts 2.1.5\n\n- Plugin version: 2.1.5.0\n- Target Jellyfin ABI: 12.1.0.0\n- Upstream commit: c5c0218a4cd7c8eee5c4a9d2d6a7701eded92397\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers Movie-related VGMdb providers plus metadata and image providers restricted to generated concert collections. It does not register Artist/MusicAlbum providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.5.0.zip",
+        "checksum": "eda288f67aa706252f102c5e30712639",
+        "timestamp": "2026-10-04T02:08:16Z"
+      },
+      {
         "version": "2.1.4.0",
-        "changelog": "VGMdb Concerts 2.1.4\n\n- Plugin version: 2.1.4.0\n- Target Jellyfin ABI: 12.1.0.0\n- Upstream commit: a633b1bd98e0a9774c833632d74111bb43664eba\n- Independent plugin GUID: 553a22b2-1600-47c1-99e7-367c69ce0c09\n\nThis standalone build registers Movie-related VGMdb providers plus metadata and image providers restricted to generated concert collections. It does not register Artist/MusicAlbum providers and can coexist with Jellyfin's official VGMdb music plugin.\n",
+        "changelog": "VGMdb Concerts 2.1.4",
         "targetAbi": "12.1.0.0",
         "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.4.0.zip",
         "checksum": "1a15b5c7a6537e8630f5ac4c39cc2691",
         "timestamp": "2026-10-02T05:19:54Z"
+      },
+      {
+        "version": "2.1.3.0",
+        "changelog": "VGMdb Concerts 2.1.3",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.3.0.zip",
+        "checksum": "369446fc0ff251e708cd9a028d958247",
+        "timestamp": "2026-09-25T12:08:41Z"
+      },
+      {
+        "version": "2.1.2.0",
+        "changelog": "VGMdb Concerts 2.1.2",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.2.0.zip",
+        "checksum": "de64aa22d9ab713f96090842896cae4c",
+        "timestamp": "2026-09-25T10:03:53Z"
+      },
+      {
+        "version": "2.1.1.0",
+        "changelog": "VGMdb Concerts 2.1.1",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.1.0.zip",
+        "checksum": "8a6bc850c92c26d976872c66b870fd80",
+        "timestamp": "2026-09-25T08:50:57Z"
+      },
+      {
+        "version": "2.1.0.0",
+        "changelog": "VGMdb Concerts 2.1.0",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.1.0.0.zip",
+        "checksum": "c5b7e81b18f87552772a111008c407d9",
+        "timestamp": "2026-09-25T07:23:12Z"
+      },
+      {
+        "version": "2.0.0.0",
+        "changelog": "VGMdb Concerts 2.0.0",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/2.0.0.0.zip",
+        "checksum": "48bd24471ee2e9d5204cb6d2bb1f3304",
+        "timestamp": "2026-09-25T02:24:12Z"
+      },
+      {
+        "version": "1.8.0.0",
+        "changelog": "VGMdb Concerts 1.8.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.8.0.0.zip",
+        "checksum": "8394a8795d66f204cb75c49e1d6d45cf",
+        "timestamp": "2026-09-08T05:36:29Z"
+      },
+      {
+        "version": "1.7.9.0",
+        "changelog": "VGMdb Concerts 1.7.9",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.9.0.zip",
+        "checksum": "c7b25ced30f75648d5f6d6f9f271601f",
+        "timestamp": "2026-09-04T09:26:11Z"
+      },
+      {
+        "version": "1.7.8.0",
+        "changelog": "VGMdb Concerts 1.7.8",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.8.0.zip",
+        "checksum": "8acada37ce501feb99684f967842753f",
+        "timestamp": "2026-08-29T14:08:14Z"
+      },
+      {
+        "version": "1.7.7.0",
+        "changelog": "VGMdb Concerts 1.7.7",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.7.0.zip",
+        "checksum": "9243c31799570b95097a3a39e0effef0",
+        "timestamp": "2026-08-29T14:03:20Z"
+      },
+      {
+        "version": "1.7.6.0",
+        "changelog": "VGMdb Concerts 1.7.6",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.6.0.zip",
+        "checksum": "d121c286e7e74e9a66d6559f1b4d3e2d",
+        "timestamp": "2026-08-29T13:12:08Z"
+      },
+      {
+        "version": "1.7.5.0",
+        "changelog": "VGMdb Concerts 1.7.5",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.5.0.zip",
+        "checksum": "846d0fcee342d2c3731226717a8c047e",
+        "timestamp": "2026-08-29T11:46:52Z"
+      },
+      {
+        "version": "1.7.4.0",
+        "changelog": "VGMdb Concerts 1.7.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.4.0.zip",
+        "checksum": "d64d329fdd906f5102dcfdef39a12438",
+        "timestamp": "2026-08-29T11:12:43Z"
+      },
+      {
+        "version": "1.7.3.0",
+        "changelog": "VGMdb Concerts 1.7.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.3.0.zip",
+        "checksum": "cd273f4635cb57fdfdc2d146853d0fcc",
+        "timestamp": "2026-08-29T09:56:21Z"
+      },
+      {
+        "version": "1.7.2.0",
+        "changelog": "VGMdb Concerts 1.7.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.2.0.zip",
+        "checksum": "8fb4ebcdddcf8bb8597dd8b6ffff280e",
+        "timestamp": "2026-08-29T09:21:37Z"
+      },
+      {
+        "version": "1.7.1.0",
+        "changelog": "VGMdb Concerts 1.7.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.1.0.zip",
+        "checksum": "c015e2b5a62b01d49c6f70af26d0e514",
+        "timestamp": "2026-08-29T08:55:43Z"
+      },
+      {
+        "version": "1.7.0.0",
+        "changelog": "VGMdb Concerts 1.7.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.7.0.0.zip",
+        "checksum": "0e431eb8992e46523a9ecea98b119ac1",
+        "timestamp": "2026-08-29T07:32:30Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "VGMdb Concerts 1.6.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.6.0.0.zip",
+        "checksum": "833521189866b983a279d912d7e72a11",
+        "timestamp": "2026-08-29T05:16:46Z"
+      },
+      {
+        "version": "1.5.2.0",
+        "changelog": "VGMdb Concerts 1.5.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.5.2.0.zip",
+        "checksum": "e4904ebec611d1fac48c1ff4e4877b2e",
+        "timestamp": "2026-08-29T03:31:56Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "VGMdb Concerts 1.5.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.5.1.0.zip",
+        "checksum": "a1ed0bd5078efc8ff07261c19fdac687",
+        "timestamp": "2026-08-29T02:11:12Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "VGMdb Concerts 1.5.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.5.0.0.zip",
+        "checksum": "67a707c8ca1704cd99c859d54b58f6d2",
+        "timestamp": "2026-08-29T01:54:53Z"
+      },
+      {
+        "version": "1.4.4.0",
+        "changelog": "VGMdb Concerts 1.4.4",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.4.4.0.zip",
+        "checksum": "e3ab8eeb0901b7a73049f3b39be4a28d",
+        "timestamp": "2026-08-29T01:23:19Z"
+      },
+      {
+        "version": "1.4.3.0",
+        "changelog": "VGMdb Concerts 1.4.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.4.3.0.zip",
+        "checksum": "b0998c556b3bb72571a7bdf9d5d158ba",
+        "timestamp": "2026-08-28T18:08:12Z"
+      },
+      {
+        "version": "1.4.2.0",
+        "changelog": "VGMdb Concerts 1.4.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.4.2.0.zip",
+        "checksum": "0f7b90e1f0c0f0b85976caff0ab7f29f",
+        "timestamp": "2026-08-28T17:39:30Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "VGMdb Concerts 1.4.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.4.1.0.zip",
+        "checksum": "c2dc867fb5fa9813ea070b2d4f8ec001",
+        "timestamp": "2026-08-28T17:00:58Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "VGMdb Concerts 1.4.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.4.0.0.zip",
+        "checksum": "edea57196d9c3a5a44cf81e20e70f88d",
+        "timestamp": "2026-08-28T16:56:46Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "VGMdb Concerts 1.3.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.3.0.0.zip",
+        "checksum": "c3a6e01d58d344b2cfd89c598ff89e2c",
+        "timestamp": "2026-08-28T16:37:36Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "VGMdb Concerts 1.2.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.2.0.0.zip",
+        "checksum": "f1afddfad4b777f759f37d7211222886",
+        "timestamp": "2026-08-28T15:35:18Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "VGMdb Concerts 1.1.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.1.0.0.zip",
+        "checksum": "81fd358c0930f8b5dce739d2029587cc",
+        "timestamp": "2026-08-28T15:02:43Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "VGMdb Concerts 1.0.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://wym3253.github.io/jellyfin-plugin-vgmdb-concerts-repository/1.0.0.0.zip",
+        "checksum": "f56ea1347ed007afa9ee9a75095440e1",
+        "timestamp": "2026-08-27T15:50:53Z"
       }
     ]
   }
